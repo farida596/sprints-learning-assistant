@@ -9,12 +9,17 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 CURRICULUM_DIR = DATA_DIR / "curriculum_docs"
 LEARNER_CSV = DATA_DIR / "sprints_learner_db.csv"
 LEARNER_DB = DATA_DIR / "sprints_learner.db"
 CHROMA_DIR = DATA_DIR / "chroma_store"
+
+# Load local configuration without requiring environment variables to be set manually.
+load_dotenv(PROJECT_ROOT / ".env")
 
 CHUNK_TOKENS = 500
 CHUNK_OVERLAP_TOKENS = 50
