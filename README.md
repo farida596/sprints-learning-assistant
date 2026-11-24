@@ -61,14 +61,15 @@ The curriculum retriever uses ChromaDB when an OpenAI key and the relevant packa
 
 4. Create your local environment file:
 
-   ```bash
+   Windows PowerShell:
+
    ```powershell
-   # Windows PowerShell
    Copy-Item .env.example .env
    ```
 
+   macOS / Linux:
+
    ```bash
-   # macOS / Linux
    cp .env.example .env
    ```
 
