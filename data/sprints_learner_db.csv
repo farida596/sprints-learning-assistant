@@ -1,0 +1,26 @@
+learner_id,name,bootcamp_track,completed_modules,python_assignment_score,target_salary_egp,preferred_employers,readiness_status
+SPR-1001,Learner 01,Advanced Agentic AI,12,95,30000,"Fawry, Swvl",Ready for Placement
+SPR-1002,Learner 02,Backend,8,78,18000,"Vodafone Egypt, e& Egypt",In Progress
+SPR-1003,Learner 03,Frontend,15,88,15000,Swvl,Ready for Placement
+SPR-1004,Learner 04,Data Science,5,60,25000,Fawry,Needs Review
+SPR-1005,Learner 05,Advanced Agentic AI,10,92,35000,"e& Egypt, Fawry",In Progress
+SPR-1006,Learner 06,Frontend,14,85,12000,"Vodafone Egypt, Swvl",Ready for Placement
+SPR-1007,Learner 07,Backend,2,40,15000,Fawry,Needs Review
+SPR-1008,Learner 08,Data Science,12,89,28000,"Swvl, e& Egypt",Ready for Placement
+SPR-1009,Learner 09,Advanced Agentic AI,7,75,22000,Vodafone Egypt,In Progress
+SPR-1010,Learner 10,Frontend,15,90,14000,"Swvl, Fawry",Ready for Placement
+SPR-1011,Learner 11,Backend,11,81,17000,"Fawry, e& Egypt",In Progress
+SPR-1012,Learner 12,Data Science,3,50,20000,Vodafone Egypt,Needs Review
+SPR-1013,Learner 13,Advanced Agentic AI,12,98,40000,"Fawry, Swvl, e& Egypt",Ready for Placement
+SPR-1014,Learner 14,Backend,14,88,20000,e& Egypt,Ready for Placement
+SPR-1015,Learner 15,Frontend,5,65,10000,Swvl,In Progress
+SPR-1016,Learner 16,Data Science,11,82,24000,"Fawry, Vodafone Egypt",In Progress
+SPR-1017,Learner 17,Advanced Agentic AI,4,55,25000,e& Egypt,Needs Review
+SPR-1018,Learner 18,Frontend,15,95,16000,"Fawry, Swvl",Ready for Placement
+SPR-1019,Learner 19,Backend,9,72,16000,Vodafone Egypt,In Progress
+SPR-1020,Learner 20,Data Science,12,91,30000,"Swvl, e& Egypt",Ready for Placement
+SPR-1021,Learner 21,Advanced Agentic AI,1,0,20000,Fawry,Dropped
+SPR-1022,Learner 22,Backend,13,87,19000,"Vodafone Egypt, Fawry",In Progress
+SPR-1023,Learner 23,Frontend,15,89,15000,"e& Egypt, Swvl",Ready for Placement
+SPR-1024,Learner 24,Data Science,6,68,22000,Fawry,In Progress
+SPR-1025,Learner 25,Data Science,12,100,45000,"Fawry, e& Egypt, Swvl",Ready for Placement
