@@ -31,7 +31,6 @@ def resume(app:Any,learner_id:str,approved:bool,note:str="")->dict[str,Any]:
 def main(argv:Optional[list[str]]=None)->int:
     """Parse CLI options and launch the assistant."""
     parser=argparse.ArgumentParser(description="Sprints Multi-Agent AI Career & Assessment Orchestrator")
-    parser.add_argument("--demo",action="store_true",help="run the scripted end-to-end demo")
     parser.add_argument("--chat",metavar="LEARNER_ID",help="interactive chat for one learner, e.g. SPR-1013")
     parser.add_argument("--rebuild-db",action="store_true",help="rebuild SQLite from the CSV")
     parser.add_argument("--quiet",action="store_true",help="hide the agent protocol trace")
@@ -55,8 +54,6 @@ def main(argv:Optional[list[str]]=None)->int:
                 ok=input("Approve? (y/n): ").strip().lower().startswith("y")
                 out=resume(app,learner,ok,input("Expert note: ").strip())
             print("\nSprints:",out["answer"])
-    elif args.demo:
-        print("Demo mode is available through the project examples; use --chat LEARNER_ID for an interactive session.")
     else: parser.print_help()
     return 0
 
