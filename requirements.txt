@@ -1,0 +1,15 @@
+# Orchestration
+langgraph>=0.4
+langchain>=0.3
+langchain-core>=0.3
+langchain-openai>=0.3
+langchain-chroma>=0.2
+langchain-text-splitters>=0.3
+# Vector store, typing, tokenizer
+chromadb>=0.5
+pydantic>=2.7
+tiktoken>=0.7
+# Notebooks and reports
+jupyter>=1.0
+matplotlib>=3.8
+# Tests: python -m unittest discover -s tests  (no extra dependency needed)
